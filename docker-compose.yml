@@ -1,0 +1,5 @@
+version: "3.5"
+
+services:
+    php:
+        image: devilbox/php-fpm-8.0:latest

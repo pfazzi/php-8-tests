@@ -1,0 +1,26 @@
+{
+    "name": "pfazzi/php-8-tests",
+    "authors": [
+        {
+            "name": "pfazzi",
+            "email": "patrick91@live.it"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Pfazzi\\Php8Tests\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Flowing\\Php8Tests\\Tests\\": "test"
+        }
+    },
+    "require": {
+        "php": "^8",
+        "phpunit/phpunit": "^9.2"
+    }
+}
